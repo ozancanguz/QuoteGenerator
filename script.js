@@ -32,4 +32,8 @@ async function getQuotes(){
     }
 }
 
+//event listeners
+newQuoteBtn.addEventListener("click",newQuote);
+
+
 getQuotes()
